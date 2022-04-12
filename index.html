@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="data_entry_container">
+        <textarea name="street_names" id="data_source" cols="100" rows="30" onchange="getData()"></textarea>
+        <button class="button" onclick="getStreetNames()">Atlasīt ielu nosaukumus</button>
+    </div>
+    <div class="data_result_container">
+        <h3>Rezultāts:</h3>
+        <div class="street_names"></div>
+    </div>
+   
+</body>
+</html>
+
+<script src="./script.js"></script>

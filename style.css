@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.data_entry_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    margin: 20px 0;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.data_result_container{
+    margin-left: 20px;
+}
+ h3{
+     margin-top: 0;
+ }
+
+ .street_names{
+     border: solid 1px rgb(228, 225, 225);
+     min-height: 450px;
+     min-width: 600px;
+     max-height: fit-content;
+     max-width: fit-content;
+ }
